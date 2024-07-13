@@ -51,7 +51,7 @@ public class DeleteStage extends HttpServlet {
 	        }
 
 	        try {
-	            connexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/projet_jee_db", "user", "mouna12345");
+	            connexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/projcet_jee_db", "user", "user");
 	        } catch (SQLException e) {
 	            e.printStackTrace();
 	        }
